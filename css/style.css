@@ -9,15 +9,18 @@ header{
 	height: 162px;
 
 }
+nav{
+	max-width: 940px;
+	margin: o auto;
+	
+}
 .links{
-	padding: 0;
-	margin: 0;
+	
+	
 	display: block;
 	
 }
-nav{
-	text-align: center;
-}
+
 header a{
 	text-decoration: none;
 	color: white;
@@ -27,7 +30,7 @@ header a{
 }
 header li{
 	margin-top: 120px;
-	float: right;
+
 	
 }
 
