@@ -6,29 +6,33 @@ body{
 }
 
 header{
-	background: #161616;
-	height: 161px;	
+	background: #161616;	
 }
 
 
 .menu{
-	max-width: 940px;
-	border: 2px solid green;
+	width: 940px;
 	margin: 0 auto;
 	display: block;
 	overflow: hidden;
-	
+	padding: 0;
 }
 .menu li{
 	float: left;
-	margin-right: 31px;
-	border: 3px solid blue;
 	list-style: none;
 	margin-top: 135px;
 	border-right: 1px solid #2c2c2c;
+	text-align: center;
+	padding: 0 15px;
+}
+.menu li:first-child{
+	padding-left: 0;
+}
+.menu li:last-child{
+	border-right: none;
 }
 .menu a{
-	
+	padding: 15px 0;
 	text-decoration: none;
 	text-transform: uppercase;
 	color: #c9c9c9;
@@ -37,9 +41,13 @@ header{
 }
 .conteiner{
 	width: 940px;
-	border: 2px solid yellow;
 	text-align: center;
 	margin: 0 auto;
+}
+.logo{
+	hieght: 64px;
+	width: 140px;
+	float: left;
 }
 	
 	
